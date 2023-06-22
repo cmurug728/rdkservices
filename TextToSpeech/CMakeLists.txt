@@ -20,6 +20,7 @@ add_library(${MODULE_NAME} SHARED
         impl/logger.cpp
         impl/TTSDownloader.cpp
         impl/TTSURLConstructer.cpp
+        impl/SatToken.cpp
         )
 set_target_properties(${MODULE_NAME} PROPERTIES
         CXX_STANDARD 11
